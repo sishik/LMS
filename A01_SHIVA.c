@@ -28,6 +28,9 @@ void main()
 	gets(name_org);
 	puts(name_org);	
 	printf("\n Enter choice\n");
+	printf("\n Pres 1 to Enter the employee details\n");
+	printf("\n press 2 to view employee details\n");
+	printf("\n press 3 to view leave taken or leave pending\n");
 	scanf("%d",&choice);
 	switch(choice)
 	{
